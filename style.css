@@ -19,7 +19,7 @@
     --border-radius-2: 0.8rem;
     --border-radius-3: 1.2rem;
 
-    --card-padding: 1.8rem;
+    --card-padding: 2.5rem;
     --padding-1: 1.5rem;
     --box-shadow: 0 2rem 3rem var(var(--color-dark-varient));
 }
@@ -273,7 +273,18 @@ main .insights .income svg circle {
     stroke-dasharray: 220;
 }
 main .insights .progress .number {
-    stroke-dashoffset: 50;  
-    stroke-dasharray: 220;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+main .insights small {
+    margin-top: 1.5rem;
+    display: block;
 }
+
 
